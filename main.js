@@ -31,7 +31,7 @@ const getScrapingDaysSets = numOfSet => {
   while (days.length) {
     daysSet.push(days.splice(0, num_of_data))
   }
-  plog(daysSet)
+  // plog(daysSet)
 
   return daysSet
 }
